@@ -1,0 +1,120 @@
+/* pc */
+@media (min-width: 1024px) {
+    .mobile-menu-btn{
+        display: none;
+    }
+    .float-right {
+        float: right !important;
+        margin-right: 8px;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .float-right {
+        float: right !important;
+        margin-right: 8px;
+    }
+    .about-section-desc {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .content-section {
+        padding: 64px 16px;
+     }
+    .map-img {
+        max-width: 100%;
+    }
+    .mobile-menu-btn{
+        display: none;
+    }
+    .btn {
+        padding: 15px 19px;
+    }
+    .contact-form {
+        padding: 14px 8px;
+    }
+    .social-list a {
+        font-size: 48px;
+        padding: 0 8px;
+    }
+    .copyright {
+        font-size: 30px;
+        padding: 8px 0;
+        display: inline-block;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+/* mobile */
+@media (max-width: 740px) {
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px;
+    }
+
+    #nav .subnav {
+        position: inherit;
+        background-color: #333;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }   
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav > li {
+        display: block;    
+    }
+    .search-btn {
+        display: none;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+    .map-img {
+        max-width: 100%;
+    }
+    #nav > li:first-child {
+        display: inline-block
+    }
+    #nav {
+        display: block;
+    }
+    .about-section-desc {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .band-img {
+        width: 60%;
+    }
+    .content-section {
+       padding: 64px 16px;
+    }
+    .s-col-full {
+        width: 100% !important;
+    }
+    .modal-body {
+        padding: 0 14px;
+    }
+    .contact-info {
+        margin-bottom: 32px;
+        line-height: 2;
+    }
+    .s-full-width-contact {
+        width: 96% !important;
+        margin-left: 8px;
+    }
+    
+
+    
+}
